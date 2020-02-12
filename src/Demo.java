@@ -3,9 +3,8 @@ public class Demo {
     DiscountStrategy strategy = null;
     Order order = new Order("Peter", 400.0f);
 
-String string = "does nothing";
     // discount strategy
-    //int selectedStrat = Integer.parseInt(argv[0]);
+    int selectedStrat = Integer.parseInt(argv[0]);
 
     // discount amount
     float amt = Float.parseFloat(argv[1]);
