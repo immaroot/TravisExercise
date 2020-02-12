@@ -3,7 +3,8 @@ public class Demo {
     DiscountStrategy strategy = null;
     Order order = new Order("Peter", 400.0f);
 
-    
+ 	Object o = new Object();
+	o = (String) "Does nothing";   
 
     // discount strategy
     //int selectedStrat = Integer.parseInt(argv[0]);
